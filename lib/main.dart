@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'StyleHub',
       debugShowCheckedModeBanner: false,
       theme: appTheme,
-      home: RegisterScreen()
+      home: Bottomnav()
     );
   }
 }

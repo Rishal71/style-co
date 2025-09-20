@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-const bgColor = Color.fromARGB(255, 234, 228, 223);
+const bgColor = Color.fromARGB(255, 255, 119, 8);
 final activeColor = const Color.fromARGB(255, 255, 253, 252);
 
 final appTheme = ThemeData(
-  scaffoldBackgroundColor: bgColor,
+  scaffoldBackgroundColor: Color(0xFFF5E6D3),
   primaryColor: activeColor,
   inputDecorationTheme: InputDecorationTheme(
     filled: true,

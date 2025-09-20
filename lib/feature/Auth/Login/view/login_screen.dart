@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
-            Container(width: double.infinity, child: LoginFeild()),
+            Container(width: double.infinity, child: LoginFormFeild()),
           ],
         ),
       ),

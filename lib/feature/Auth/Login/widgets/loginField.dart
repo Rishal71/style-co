@@ -5,8 +5,8 @@ import 'package:style_co/common/widgets/customButton.dart';
 import 'package:style_co/common/widgets/customTextFormField.dart';
 import 'package:style_co/feature/Auth/Register/view/register_screen.dart';
 
-class LoginFeild extends StatelessWidget {
-  LoginFeild({super.key});
+class LoginFormFeild extends StatelessWidget {
+  LoginFormFeild({super.key});
 
   final _formKey = GlobalKey<FormState>();
 
@@ -71,7 +71,7 @@ class LoginFeild extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'don"t have an account?',
+                'Don"t have an account?',
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
               ),
               TextButton(
